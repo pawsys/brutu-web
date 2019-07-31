@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Stubborn App</title>
-    <link>http://pawsys.github.io/stubbornweb/tags/</link>
+    <link>https://stubbornapp.com/tags/</link>
     <description>Recent content in Tags on Stubborn App</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://pawsys.github.io/stubbornweb/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stubbornapp.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

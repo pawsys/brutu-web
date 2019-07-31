@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://pawsys.github.io/stubbornweb/categories/</loc>
+    <loc>https://stubbornapp.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pawsys.github.io/stubbornweb/</loc>
+    <loc>https://stubbornapp.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://pawsys.github.io/stubbornweb/tags/</loc>
+    <loc>https://stubbornapp.com/tags/</loc>
     <priority>0</priority>
   </url>
   
