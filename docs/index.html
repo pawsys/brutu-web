@@ -21,9 +21,9 @@
 			<img class="h-8 inline-block mb-1" src=/images/logo.png alt="logo">
 		</a>
 		<div class="flex ml-auto items-center">
-			<span class="text-xs border border-yellow-500 bg-yellow-100  text-yellow-700 uppercase tracking-wide  rounded px-2 py-1 mr-2">Coming Soon!</span>
+			<span class="text-xs border border-yellow-500 bg-yellow-100  text-yellow-700 uppercase tracking-wide rounded px-2 py-1 mr-2">Coming Soon!</span>
 			<a href="#">
-				<img class="inline-block mb-1" src=/images/appStore.svg alt="logo">
+				<img class="inline-block mb-1 hidden md:block" src=/images/appStore.svg alt="logo">
 			</a>
 		</div>
 	</header>
@@ -31,18 +31,19 @@
 		<div class="">
 		  
 <div class="max-w-6xl m-auto">
-  <div class="flex mb-4 mt-8">
-    <div class="w-1/2 flex justify-center">
-      <img class="iphone-img shadow-2xl" src=/images/iphoneApp.svg alt="logo">
-    </div>
-    <div class="w-1/2 flex justify-center items-center">
-      <div class="leading-normal max-w-md">
+  <div class="flex flex-wrap justify-center mb-4 my-8 leading-tight md:leading-normal">
+    <div class="w-full md:w-1/2 flex flex-col justify-center items-center text-center max-w-md py-4 md:order-last">
         <a href="#">
-          <img class="icon-img w-32 shadow-2xl" src=/images/stubborn-icon.png alt="logo">
+          <img class="icon-img w-32 my-shadow" src=/images/stubborn-icon.png alt="logo">
         </a>
         <h1 class="text-5xl font-bold mt-8">Stubborn Timer</h1>
         <p class="text-5xl leading-tight font-thin ">A timer that keeps you&nbsp;focused</p>
-      </div>
+        <a href="#">
+            <img class="inline-block mb-1 md:hidden mt-6" src=/images/appStore.svg alt="logo">
+        </a>
+    </div>
+    <div class="w-full md:w-1/2 flex justify-center py-4 ">
+      <img class="iphone-img my-shadow" src=/images/iphoneApp.svg alt="logo">
     </div>
   </div>
 </div>
