@@ -2,18 +2,19 @@
 
 {{define "main" }}
 <div class="max-w-6xl m-auto">
-  <div class="flex mb-4 mt-8">
-    <div class="w-1/2 flex justify-center">
-      <img class="iphone-img shadow-2xl" src={{"images/iphoneApp.svg" | relURL}} alt="logo">
-    </div>
-    <div class="w-1/2 flex justify-center items-center">
-      <div class="leading-normal max-w-md">
+  <div class="flex flex-wrap justify-center mb-4 my-8 leading-tight md:leading-normal">
+    <div class="w-full md:w-1/2 flex flex-col justify-center items-center text-center max-w-md py-4 md:order-last">
         <a href="#">
-          <img class="icon-img w-32 shadow-2xl" src={{"images/stubborn-icon.png" | relURL}} alt="logo">
+          <img class="icon-img w-32 my-shadow" src={{"images/stubborn-icon.png" | relURL}} alt="logo">
         </a>
         <h1 class="text-5xl font-bold mt-8">Stubborn Timer</h1>
         <p class="text-5xl leading-tight font-thin ">A timer that keeps you&nbsp;focused</p>
-      </div>
+        <a href="#">
+            <img class="inline-block mb-1 md:hidden mt-6" src={{"images/appStore.svg" | relURL}} alt="logo">
+        </a>
+    </div>
+    <div class="w-full md:w-1/2 flex justify-center py-4 ">
+      <img class="iphone-img my-shadow" src={{"images/iphoneApp.svg" | relURL}} alt="logo">
     </div>
   </div>
 </div>
