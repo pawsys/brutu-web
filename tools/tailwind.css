@@ -1,0 +1,38 @@
+@tailwind base;
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	@apply font-sans text-lg;
+}
+
+h1 {
+	@apply text-2xl;
+}
+
+h2 {
+	@apply text-xl;
+}
+
+h3 {
+	@apply text-lg;
+};
+
+@tailwind components;
+/* @apply don't work with variants (responsive:, hover:, focus:, active:) */
+
+
+
+
+@tailwind utilities;
+/* here goes custom css. tailwinds utilities are all thousend of styles */
+
+.iphone-img {
+	border-radius: 2.75rem;
+}
+
+.icon-img {
+	border-radius: 2rem;
+}
