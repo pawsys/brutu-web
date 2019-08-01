@@ -1040,6 +1040,10 @@ h3 {
   background-color: #702459;
 }
 
+.bg-primary {
+  background-color: #777DDC;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1412,6 +1416,10 @@ h3 {
   background-color: #702459;
 }
 
+.hover\:bg-primary:hover {
+  background-color: #777DDC;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -1782,6 +1790,10 @@ h3 {
 
 .focus\:bg-pink-900:focus {
   background-color: #702459;
+}
+
+.focus\:bg-primary:focus {
+  background-color: #777DDC;
 }
 
 .bg-bottom {
@@ -2236,6 +2248,10 @@ h3 {
   border-color: #702459;
 }
 
+.border-primary {
+  border-color: #777DDC;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -2608,6 +2624,10 @@ h3 {
   border-color: #702459;
 }
 
+.hover\:border-primary:hover {
+  border-color: #777DDC;
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -2978,6 +2998,10 @@ h3 {
 
 .focus\:border-pink-900:focus {
   border-color: #702459;
+}
+
+.focus\:border-primary:focus {
+  border-color: #777DDC;
 }
 
 .rounded-none {
@@ -6377,6 +6401,10 @@ h3 {
   color: #702459;
 }
 
+.text-primary {
+  color: #777DDC;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -6749,6 +6777,10 @@ h3 {
   color: #702459;
 }
 
+.hover\:text-primary:hover {
+  color: #777DDC;
+}
+
 .focus\:text-transparent:focus {
   color: transparent;
 }
@@ -7119,6 +7151,10 @@ h3 {
 
 .focus\:text-pink-900:focus {
   color: #702459;
+}
+
+.focus\:text-primary:focus {
+  color: #777DDC;
 }
 
 .text-xs {
@@ -7979,6 +8015,10 @@ h3 {
     background-color: #702459;
   }
 
+  .sm\:bg-primary {
+    background-color: #777DDC;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -8351,6 +8391,10 @@ h3 {
     background-color: #702459;
   }
 
+  .sm\:hover\:bg-primary:hover {
+    background-color: #777DDC;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -8721,6 +8765,10 @@ h3 {
 
   .sm\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .sm\:focus\:bg-primary:focus {
+    background-color: #777DDC;
   }
 
   .sm\:bg-bottom {
@@ -9175,6 +9223,10 @@ h3 {
     border-color: #702459;
   }
 
+  .sm\:border-primary {
+    border-color: #777DDC;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -9547,6 +9599,10 @@ h3 {
     border-color: #702459;
   }
 
+  .sm\:hover\:border-primary:hover {
+    border-color: #777DDC;
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -9917,6 +9973,10 @@ h3 {
 
   .sm\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .sm\:focus\:border-primary:focus {
+    border-color: #777DDC;
   }
 
   .sm\:rounded-none {
@@ -13316,6 +13376,10 @@ h3 {
     color: #702459;
   }
 
+  .sm\:text-primary {
+    color: #777DDC;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -13688,6 +13752,10 @@ h3 {
     color: #702459;
   }
 
+  .sm\:hover\:text-primary:hover {
+    color: #777DDC;
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -14058,6 +14126,10 @@ h3 {
 
   .sm\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .sm\:focus\:text-primary:focus {
+    color: #777DDC;
   }
 
   .sm\:text-xs {
@@ -14905,6 +14977,10 @@ h3 {
     background-color: #702459;
   }
 
+  .md\:bg-primary {
+    background-color: #777DDC;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -15277,6 +15353,10 @@ h3 {
     background-color: #702459;
   }
 
+  .md\:hover\:bg-primary:hover {
+    background-color: #777DDC;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -15647,6 +15727,10 @@ h3 {
 
   .md\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .md\:focus\:bg-primary:focus {
+    background-color: #777DDC;
   }
 
   .md\:bg-bottom {
@@ -16101,6 +16185,10 @@ h3 {
     border-color: #702459;
   }
 
+  .md\:border-primary {
+    border-color: #777DDC;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -16473,6 +16561,10 @@ h3 {
     border-color: #702459;
   }
 
+  .md\:hover\:border-primary:hover {
+    border-color: #777DDC;
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -16843,6 +16935,10 @@ h3 {
 
   .md\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .md\:focus\:border-primary:focus {
+    border-color: #777DDC;
   }
 
   .md\:rounded-none {
@@ -20242,6 +20338,10 @@ h3 {
     color: #702459;
   }
 
+  .md\:text-primary {
+    color: #777DDC;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -20614,6 +20714,10 @@ h3 {
     color: #702459;
   }
 
+  .md\:hover\:text-primary:hover {
+    color: #777DDC;
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -20984,6 +21088,10 @@ h3 {
 
   .md\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .md\:focus\:text-primary:focus {
+    color: #777DDC;
   }
 
   .md\:text-xs {
@@ -21831,6 +21939,10 @@ h3 {
     background-color: #702459;
   }
 
+  .lg\:bg-primary {
+    background-color: #777DDC;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -22203,6 +22315,10 @@ h3 {
     background-color: #702459;
   }
 
+  .lg\:hover\:bg-primary:hover {
+    background-color: #777DDC;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -22573,6 +22689,10 @@ h3 {
 
   .lg\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .lg\:focus\:bg-primary:focus {
+    background-color: #777DDC;
   }
 
   .lg\:bg-bottom {
@@ -23027,6 +23147,10 @@ h3 {
     border-color: #702459;
   }
 
+  .lg\:border-primary {
+    border-color: #777DDC;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -23399,6 +23523,10 @@ h3 {
     border-color: #702459;
   }
 
+  .lg\:hover\:border-primary:hover {
+    border-color: #777DDC;
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -23769,6 +23897,10 @@ h3 {
 
   .lg\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .lg\:focus\:border-primary:focus {
+    border-color: #777DDC;
   }
 
   .lg\:rounded-none {
@@ -27168,6 +27300,10 @@ h3 {
     color: #702459;
   }
 
+  .lg\:text-primary {
+    color: #777DDC;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -27540,6 +27676,10 @@ h3 {
     color: #702459;
   }
 
+  .lg\:hover\:text-primary:hover {
+    color: #777DDC;
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -27910,6 +28050,10 @@ h3 {
 
   .lg\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .lg\:focus\:text-primary:focus {
+    color: #777DDC;
   }
 
   .lg\:text-xs {
@@ -28757,6 +28901,10 @@ h3 {
     background-color: #702459;
   }
 
+  .xl\:bg-primary {
+    background-color: #777DDC;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -29129,6 +29277,10 @@ h3 {
     background-color: #702459;
   }
 
+  .xl\:hover\:bg-primary:hover {
+    background-color: #777DDC;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -29499,6 +29651,10 @@ h3 {
 
   .xl\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .xl\:focus\:bg-primary:focus {
+    background-color: #777DDC;
   }
 
   .xl\:bg-bottom {
@@ -29953,6 +30109,10 @@ h3 {
     border-color: #702459;
   }
 
+  .xl\:border-primary {
+    border-color: #777DDC;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -30325,6 +30485,10 @@ h3 {
     border-color: #702459;
   }
 
+  .xl\:hover\:border-primary:hover {
+    border-color: #777DDC;
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -30695,6 +30859,10 @@ h3 {
 
   .xl\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .xl\:focus\:border-primary:focus {
+    border-color: #777DDC;
   }
 
   .xl\:rounded-none {
@@ -34094,6 +34262,10 @@ h3 {
     color: #702459;
   }
 
+  .xl\:text-primary {
+    color: #777DDC;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -34466,6 +34638,10 @@ h3 {
     color: #702459;
   }
 
+  .xl\:hover\:text-primary:hover {
+    color: #777DDC;
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -34836,6 +35012,10 @@ h3 {
 
   .xl\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .xl\:focus\:text-primary:focus {
+    color: #777DDC;
   }
 
   .xl\:text-xs {
