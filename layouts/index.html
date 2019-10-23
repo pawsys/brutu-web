@@ -2,7 +2,7 @@
 
 {{define "main" }}
 <div class="max-w-6xl m-auto">
-  <div class="flex flex-wrap justify-center mb-4 my-8 leading-tight md:leading-normal">
+  <div class="flex flex-wrap md:flex-no-wrap justify-center mb-4 my-8 leading-tight md:leading-normal">
     <div class="w-full md:w-1/2 flex flex-col justify-center items-center text-center max-w-md py-4">
         <a href="#">
           <img class="icon-img w-32 my-shadow" src={{"images/icon.png" | relURL}} alt="logo">
@@ -18,13 +18,9 @@
             <img class="inline-block mb-1 md:hidden mt-6" src={{"images/appStore.svg" | relURL}} alt="logo">
         </a>  */}}
     </div>
-    <div class="w-full md:w-1/2 flex justify-center py-8 md:order-first px-4">
+    <div class="w-full md:w-1/2 flex items-center justify-center my-8 md:order-first mx-4">
       <img class="iphone-img my-shadow" src={{"images/iphoneApp.svg" | relURL}} alt="logo">
     </div>
-  </div>
-  <div class="flex justify-between m-4 mt-8">
-    <a href="mailto:hello@brutu.app" class="text-gray-500">Contact</a>
-    <span class=" text-gray-500">© Kant & Sysiak</span>
   </div>
 </div>
   
