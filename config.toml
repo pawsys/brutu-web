@@ -1,8 +1,8 @@
 baseURL = "https://stubbornapp.com"
 languageCode = "en-us"
-title = "Stubborn App"
+title = "Brutu App"
 author = "Pawel Sysiak"
-description = "Stubborn Timer. Timer that keeps you focus."
+description = "Brutu Timer. Timer that keeps you focus."
 
 publishDir = "docs"
 enableEmoji = "true"
