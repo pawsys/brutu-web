@@ -81,7 +81,7 @@ p + p {
 }
 
 .all-content {
-	min-height: calc(100vh - 4rem);
+	min-height: calc(100vh - 8rem);
 }
 
 
