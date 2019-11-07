@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	@apply font-sans text-lg;
+	@apply font-sans text-lg text-gray-900;
 }
 
 h1 {

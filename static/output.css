@@ -610,6 +610,7 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
+  color: #1a202c;
 }
 
 h1 {
@@ -11611,7 +11612,7 @@ p + p {
 }
 
 .all-content {
-  min-height: calc(100vh - 4rem);
+  min-height: calc(100vh - 8rem);
 }
 
 @media (min-width: 640px) {

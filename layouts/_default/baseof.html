@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href={{"output.css" | relURL}}>
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,700,700i|Roboto&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" href={{"images/flavicon-32.png" | relURL}} sizes="32x32">
+	<link rel="icon" href={{"images/flavicon-96.png" | relURL}} sizes="96x96">
+	<link rel="icon" href={{"images/flavicon-194.png" | relURL}} sizes="194x194">
   <link rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png">
 </head>
 
@@ -18,9 +20,9 @@
 			<img class="h-10 inline-block mb-1" src={{"images/logo.png" | relURL}} alt="logo">
 		</a>
 		<div class="flex ml-auto items-center">
-			<span class="text-xs border border-yellow-500 bg-yellow-100  text-yellow-700 uppercase tracking-wide rounded px-2 py-1 mr-2">Coming Soon!</span>
+			<!-- <span class="text-xs border border-yellow-500 bg-yellow-100  text-yellow-700 uppercase tracking-wide rounded px-2 py-1 mr-2">Coming Soon!</span> -->
 			<a href="#">
-				<img class="inline-block mb-1 hidden sm:block" src={{"images/appStore.svg" | relURL}} alt="logo">
+				<img class="inline-block mb-1" src={{"images/appStore.svg" | relURL}} alt="logo">
 			</a>
 		</div>
 	</header>
@@ -33,9 +35,27 @@
 	<script src={{"app.js" | relURL}}></script>	
 	<hr>
   {{ block "footer" . }}
-  <footer class="flex justify-between items-center h-16 mx-4">
-    <a href="mailto:hello@brutu.app" class="text-gray-500">Contact</a>
-    <span class=" text-gray-500">© 2019 Kant & Sysiak</span>
+  <footer class="flex flex-col sm:flex-row items-center justify-center sm:justify-between flex-wrap p-4">
+	  <div class="flex items-center h-1612 mx-4">
+		<a href="https://twitter.com/brutuapp" class="p-2">		
+			<img class="h-6" src={{"images/icon-twitter.svg" | relURL}} alt="twitter-icon">
+		</a>
+		<a href="https://www.instagram.com/brutuapp/" class="p-2">		
+			<img class="h-6" src={{"images/icon-instagram.svg" | relURL}} alt="instagram-icon">
+		</a>
+		<a href="https://www.facebook.com/Brutu-100164531445347" class="p-2">		
+			<img class="h-6" src={{"images/icon-facebook.svg" | relURL}} alt="facebook-icon">
+		</a>
+		<a href="mailto:hello@brutu.app" class="p-2">		
+			<img class="h-6" src={{"images/icon-mail.svg" | relURL}} alt="mail-icon">
+		</a>
+	</div>
+	<div class=" text-gray-500 sm:ml-auto flex items-center h-12 mx-4">
+		© 2019 Kant & Sysiak
+	</div>
+	<div href="#" class="h-12 flex items-center mx-4">		
+		<img class="inline-block mb-1" src={{"images/appStore.svg" | relURL}} alt="logo">
+	</div>	
   </footer>
   {{end}}
 </body>
