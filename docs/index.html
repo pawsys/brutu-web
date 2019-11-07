@@ -8,7 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href=/output.css>
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,700,700i|Roboto&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" href=/images/flavicon-32.png sizes="32x32">
+	<link rel="icon" href=/images/flavicon-96.png sizes="96x96">
+	<link rel="icon" href=/images/flavicon-194.png sizes="194x194">
   <link rel="apple-touch-icon" href="touch-icon-iphone-precomposed.png">
 </head>
 
@@ -19,9 +21,9 @@
 			<img class="h-10 inline-block mb-1" src=/images/logo.png alt="logo">
 		</a>
 		<div class="flex ml-auto items-center">
-			<span class="text-xs border border-yellow-500 bg-yellow-100  text-yellow-700 uppercase tracking-wide rounded px-2 py-1 mr-2">Coming Soon!</span>
+			
 			<a href="#">
-				<img class="inline-block mb-1 hidden sm:block" src=/images/appStore.svg alt="logo">
+				<img class="inline-block mb-1" src=/images/appStore.svg alt="logo">
 			</a>
 		</div>
 	</header>
@@ -35,10 +37,10 @@
           <img class="icon-img w-32 my-shadow" src=/images/icon.png alt="logo">
         </a>
         <h1 class="text-5xl font-bold mt-8">Brutu Timer</h1>
-        <p class="text-5xl leading-tight font-thin ">A timer that uses money to keep you&nbsp;focused</p>
+        <p class="text-5xl leading-tight font-thin ">Stay focused or burn your money 🔥</p>
         <a href='https://docs.google.com/forms/d/1kQzhWgCaw3UfXNhIoUYKCvhmwIvE9y7a05gVEBmYFCw/edit?usp=forms_home&ths=true'>
-          <button class="my-8 bg-primary font-light tracking-wider rounded text-gray-100 py-2 px-8 border hover:border-primary hover:text-primary hover:bg-transparent hover:border-transparent">
-            Request Invite
+          <button class="my-8 bg-primary tracking-wide rounded text-gray-100 py-3 px-6 border hover:border-primary hover:text-primary hover:bg-transparent hover:border-transparent">
+            Download on the App Store
           </button>
         </a>
         
@@ -48,6 +50,26 @@
     </div>
   </div>
 </div>
+<div class="flex justify-center mx-8">
+    <div class=" text-2xl max-w-3xl">  
+      <h1 class="text-5xl font-bold mt-8">About</h1>
+      <p class="text-gray-700 mt-2"> Brutu is an iOS timer that helps you stay focused. Select any amount of money that motivates you and start a timer. Put your phone down and stay on task. If you leave the app Brutu will charge you. You can still receive phone calls or swipe to the notification center. You can also add a break to your timer - leave the app and Brutu will notify you when to come back. </p>
+    </div>
+</div>
+<div class="flex justify-center">
+  <div class="m-4 my-16 flex flex-wrap max-w-6xl">
+    <img class="p-4 m-auto sm:w-1/2 md:w-1/3" src=/images/5.5inch-2.jpg alt="Brutu-explanation">
+    <img class="p-4 m-auto sm:w-1/2 md:w-1/3" src=/images/5.5inch-3.jpg alt="Brutu-explanation">
+    <img class="p-4 m-auto sm:w-1/2 md:w-1/3" src=/images/5.5inch-4.jpg alt="Brutu-explanation">
+    <img class="p-4 m-auto sm:w-1/2 md:w-1/3" src=/images/5.5inch-5.jpg alt="Brutu-explanation">
+    <img class="p-4 m-auto sm:w-1/2 md:w-1/3" src=/images/5.5inch-6.jpg alt="Brutu-explanation">
+    <img class="p-4 m-auto sm:w-1/2 md:w-1/3" src=/images/5.5inch-7.jpg alt="Brutu-explanation">
+    <img class="p-4 m-auto sm:w-1/2 md:w-1/3" src=/images/5.5inch-8.jpg alt="Brutu-explanation">
+    <img class="p-4 m-auto sm:w-1/2 md:w-1/3" src=/images/5.5inch-9.jpg alt="Brutu-explanation">
+    <img class="p-4 m-auto sm:w-1/2 md:w-1/3" src=/images/5.5inch-10.jpg alt="Brutu-explanation">
+    
+  </div>
+</div>
   
 
 
@@ -55,9 +77,27 @@
 	<script src=/app.js></script>	
 	<hr>
   
-  <footer class="flex justify-between items-center h-16 mx-4">
-    <a href="mailto:hello@brutu.app" class="text-gray-500">Contact</a>
-    <span class=" text-gray-500">© 2019 Kant & Sysiak</span>
+  <footer class="flex flex-col sm:flex-row items-center justify-center sm:justify-between flex-wrap p-4">
+	  <div class="flex items-center h-1612 mx-4">
+		<a href="https://twitter.com/brutuapp" class="p-2">		
+			<img class="h-6" src=/images/icon-twitter.svg alt="twitter-icon">
+		</a>
+		<a href="https://www.instagram.com/brutuapp/" class="p-2">		
+			<img class="h-6" src=/images/icon-instagram.svg alt="instagram-icon">
+		</a>
+		<a href="https://www.facebook.com/Brutu-100164531445347" class="p-2">		
+			<img class="h-6" src=/images/icon-facebook.svg alt="facebook-icon">
+		</a>
+		<a href="mailto:hello@brutu.app" class="p-2">		
+			<img class="h-6" src=/images/icon-mail.svg alt="mail-icon">
+		</a>
+	</div>
+	<div class=" text-gray-500 sm:ml-auto flex items-center h-12 mx-4">
+		© 2019 Kant & Sysiak
+	</div>
+	<div href="#" class="h-12 flex items-center mx-4">		
+		<img class="inline-block mb-1" src=/images/appStore.svg alt="logo">
+	</div>	
   </footer>
   
 </body>
