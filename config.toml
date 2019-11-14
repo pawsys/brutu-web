@@ -1,7 +1,7 @@
 baseURL = "https://brutu.app"
 languageCode = "en-us"
 title = "Brutu Timer"
-author = "Pawel Sysiak"
+author = "Max Kant & Pawel Sysiak"
 description = "Stay focused or burn your money"
 
 publishDir = "docs"
